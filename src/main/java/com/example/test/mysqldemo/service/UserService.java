@@ -10,4 +10,8 @@ public interface UserService {
 	List<User> getAllUsers();
 
 	Optional<User> getUserbyId(int id);
+	
+	User saveUser(User user);
+	
+	void removeUser(int id);
 }
